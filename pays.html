@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="controle.js"></script>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Ajout d'un pays</legend>
+            <label for="co">continent</label>
+            <input type="text" name="co" id="co"><br>
+            <label for="p">Pays</label>
+            <input type="text" name="p" id="p"><br>
+            <label for="ca">Capitale</label>
+            <input type="text" name="ca" id="ca"><br>
+            <label for="su">Superficie</label>
+            <input type="text" name="su" id="su"><br>
+            <label for="po">Position</label>
+            <input type="number" name="po" id="po"><br>
+            <input type="submit" value="Ajouter" onclick="demande()">
+
+        </fieldset>
+        <h2>Liste de Pays</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>continent</th>
+                    <th>Pays</th>
+                    <th>Capitale</th>
+                    <th>Superficie</th>
+                </tr> 
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
